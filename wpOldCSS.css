@@ -1,0 +1,202 @@
+.cssTeamsMenu {
+    position: fixed;
+    transition: 1.3s;
+    top: 35vh;
+    padding: 5px;
+      z-index: 1;
+      left: -1px;
+      background: white;
+  }
+  
+  .cssMenuTitle {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-style: oblique;
+    font-size: x-large;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+      padding: 10px;	
+  }
+  
+  .cssTeamsMenu:hover {
+    margin-left: 141px;
+      z-index: 1;
+  }
+  
+  .teamIconContainer {
+    position: absolute;
+    left: -141px;
+    width: 10px;
+    top: -80px;
+      background: white;
+  }
+  
+  .teamIcon {
+    height: 50px;
+    width: 50px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+  }
+  
+  .teamIcon:hover {
+    transform: scale(1.2) translateX(2px);
+    border-radius: 3px;
+    border: 1px solid whitesmoke;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  /* small phone */
+  @media only screen and (max-width:380px) {
+      .ad {
+           width: 728px;
+           transform: scale(.4); 
+          margin-left: 1em;
+          margin-top: -1.25em;
+        margin-bottom: -3em;	
+      }
+  }
+  
+  /* big phone */
+  @media only screen and (max-width:740px) {
+      .ad {
+           width: 728px;
+           transform: scale(.9); 
+          margin-left: 0em;
+          margin-top: 0em;
+        margin-bottom: -1.5em;	
+      }
+  }
+  
+  @media only screen and (max-width:700px) {
+      .ad {
+           width: 728px;
+           transform: scale(.8); 
+          margin-left: -2em;
+          margin-top: 0em;
+        margin-bottom: -1.5em;	
+      }
+  }
+  
+  @media only screen and (max-width: 610px) {
+      .ad {
+           width: 728px;
+           transform: scale(.8); 
+          margin-left: -4em;
+          margin-top: 0em;
+        margin-bottom: -1.5em;	
+      }
+  }
+  
+  @media only screen and (max-width: 590px) {
+      .ad {
+           width: 728px;
+           transform: scale(.75); 
+          margin-left: -4.5em;
+          margin-top: 0em;
+        margin-bottom: -1.5em;
+      }
+  }
+  
+  @media only screen and (max-width: 555px) {
+      .ad {
+           width: 728px;
+           transform: scale(.7); 
+          margin-left: -5.5em;
+          margin-top: 0em;
+        margin-bottom: -1.5em;
+      }
+  }
+  
+  @media only screen and (max-width: 530px) {
+      .ad {
+           width: 728px;
+           transform: scale(.7); 
+          margin-left: -6em;
+          margin-top: 0em;
+        margin-bottom: -2em;
+      }
+  }
+  
+  @media only screen and (max-width: 500px) {
+      .ad {
+           width: 728px;
+           transform: scale(.6); 
+          margin-left: -7em;
+          margin-top: 0em;
+        margin-bottom: -2em;
+      }
+  }
+  
+  @media only screen and (max-width: 450px) {
+      .ad {
+           width: 728px;
+           transform: scale(.55); 
+          margin-left: -9em;
+          margin-top: -0.8em;
+        margin-bottom: -2.5em;
+      }
+  }
+  
+  @media only screen and (max-width: 415px) {
+      .ad {
+           width: 728px;
+           transform: scale(.5); 
+          margin-left: -10em;
+          margin-top: -0.8em;
+        margin-bottom: -2.5em;
+      }
+  }
+  
+  @media only screen and (max-width: 380px) {
+      .ad {
+           width: 728px;
+           transform: scale(.5); 
+          margin-left: -11em;
+          margin-top: -0.8em;
+        margin-bottom: -2.5em;
+      }
+  }
+  
+  @media only screen and (max-width: 320px) {
+      .ad {
+           width: 728px;
+           transform: scale(.4); 
+          margin-left: -12.7em;
+          margin-top: -1.25em;
+        margin-bottom: -3em;
+      }
+  }
+  
+  .featured-plus.left .remaining-posts .content-inner h3 {
+        font-size: 1.8rem !important;
+          line-height:1.8rem!important;
+  }
+  
+  .featured-plus.left .featured-post .thumbnail-container{
+      height:20rem!important;
+  }
+  
+  @media (min-width: 700px){.featured-plus.left .featured-post .thumbnail-container{
+      height:22rem!important;
+      }}
+  
+  .featured-plus.left .featured-post .thumbnail-container img {
+      width:100%!important;
+  }
+  
+  .featured-plus.left .remaining-posts .thumbnail-container{
+      flex: 0 0 12rem!important;
+  }
+  
+  .featured-plus .remaining-posts .thumbnail-container img{
+      width:100%!important;
+  }
+  
+  @media (min-width: 64em){.featured-plus.left .remaining-posts .thumbnail-container{
+      height: 8rem!important;
+      }}
+  .cptui-shortcode-title {
+      font-size: 1.8rem!important;
+  }
+  
